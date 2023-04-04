@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "HTTP APIs Application Test",
+      "setup": "",
+      "run": "./gradlew httpapis-application-test --rerun-tasks",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "InputOutput Application Tests",
+      "setup": "",
+      "run": "./gradlew inputoutput-application-test --rerun-tasks",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Fruit DTO Tests",
+      "setup": "",
+      "run": "./gradlew inputoutput-Fruit-dto-test --rerun-tasks",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Fruit Http Client Test",
+      "setup": "",
+      "run": "./gradlew inputoutput-Fruit-httpclient-test --rerun-tasks",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
