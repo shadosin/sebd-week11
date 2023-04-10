@@ -50,7 +50,16 @@ public class CurrencyDTO {
         }
 
         public void setBase(String base) {
-            this.base = base;
+            this.base = base;}
+
+        @Override
+        public String toString() {
+            return "Data{" +
+                    "amount='" + amount + '\'' +
+                    ", currency='" + currency + '\'' +
+                    ", base='" + base + '\'' +
+                    '}';
         }
     }
+
 }
