@@ -11,9 +11,9 @@
       "points": 1
     },
     {
-      "name": "InputOutput Application Tests",
+      "name": "ShowDTO Test",
       "setup": "",
-      "run": "./gradlew inputoutput-application-test --rerun-tasks",
+      "run": "./gradlew inputoutput-tvmaze-dto-test --rerun-tasks",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -21,9 +21,9 @@
       "points": 1
     },
     {
-      "name": "Fruit DTO Tests",
+      "name": "TVMaze DAO Test",
       "setup": "",
-      "run": "./gradlew inputoutput-Fruit-dto-test --rerun-tasks",
+      "run": "./gradlew inputoutput-tvmaze-dao-test --rerun-tasks",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -31,9 +31,9 @@
       "points": 1
     },
     {
-      "name": "Fruit Http Client Test",
+      "name": "TVMaze Service Test",
       "setup": "",
-      "run": "./gradlew inputoutput-Fruit-httpclient-test --rerun-tasks",
+      "run": "./gradlew inputoutput-tvmaze-service-test --rerun-tasks",
       "input": "",
       "output": "",
       "comparison": "included",
